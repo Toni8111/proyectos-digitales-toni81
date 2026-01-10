@@ -1,102 +1,143 @@
-<style>
-.store-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyectos Digitales Toni81 | Ofertas Globales</title>
 
-.store-item {
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 18px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-  border: 2px solid #007bff;
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RKXHW5YX47"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RKXHW5YX47');
+</script>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+header {
+  background: linear-gradient(90deg, #007bff, #28a745, #dc3545);
+  color: white;
+  padding: 30px 15px;
   text-align: center;
 }
-
-.store-item img {
-  width: 100%;
+h1 {
+  margin: 0;
+}
+h2 {
+  color: #007bff;
+}
+section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 25px 15px;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background: #fff;
   border-radius: 12px;
-  margin-bottom: 12px;
+  border: 2px solid #0044cc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  padding: 15px;
+  flex: 1 1 300px;
+  max-width: 350px;
+  text-align: center;
 }
-
-.store-item h3 {
-  color: #28a745;
-  font-size: 18px;
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card h3 {
+  color: #008000;
   margin-bottom: 8px;
 }
-
-.store-item p {
-  font-size: 14px;
-  margin-bottom: 8px;
+.card p {
+  margin: 5px 0;
 }
-
-.price {
-  font-size: 15px;
-  margin-bottom: 12px;
-}
-
-.price strong {
-  color: #dc3545;
-}
-
-.store-item a {
+.button {
   display: inline-block;
-  padding: 10px 16px;
-  background: #dc3545;
-  color: #fff;
+  margin-top: 10px;
+  padding: 12px 18px;
+  background-color: #cc0000;
+  color: white;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
 }
-
-.store-item a:hover {
+.button:hover {
   opacity: 0.9;
 }
+footer {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+@media (max-width: 768px) {
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 </style>
+</head>
+<body>
 
-<div class="store-grid">
+<header>
+  <h1>Proyectos Digitales Toni81</h1>
+  <p>Mejores recomendaciones de productos en oferta</p>
+</header>
 
-  <!-- PRODUCTO 1 -->
-  <div class="store-item">
+<section>
+<h2>🔥 Productos Destacados</h2>
+<div class="product-grid">
+
+  <!-- ARTÍCULO 1 -->
+  <div class="card">
     <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sb6f17e7e33c8448f98d61cf5d80798a8f.jpg_960x960q75.jpg_.avif" alt="Lámpara LED de pared">
-    <h3>💡 Lámpara LED de Pared Doble Cabezal</h3>
-    <p>Lámpara portátil inalámbrica con control táctil y recarga USB. Ideal para lectura y dormitorio.</p>
-    <div class="price">
-      <strong>USD 8.41</strong> <br>
-      <small>Antes USD 13.85 · 39% OFF</small>
-    </div>
-    <a href="https://s.click.aliexpress.com/e/_c40Hcnvz" target="_blank" rel="nofollow noopener">
-      🛒 Comprar
-    </a>
+    <h3>Lámpara LED de pared doble cabezal</h3>
+    <p>Control remoto táctil, luz nocturna portátil, recarga USB, giratoria 360° para lectura.</p>
+    <p><strong>Ahora:</strong> USD 8.41<br><strong>Original:</strong> USD 13.85 (39% OFF)</p>
+    <a href="https://s.click.aliexpress.com/e/_c40Hcnvz" target="_blank" class="button">Comprar</a>
   </div>
 
-  <!-- PRODUCTO 2 -->
-  <div class="store-item">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/Se118a8ef32564d4e970a3a4e72a2a072v.jpg?has_lang=1&ver=1_960x960q75.jpg_.avif" alt="Cable USB C 100W">
-    <h3>⚡ Cable USB C 100W con Pantalla LED</h3>
-    <p>Cable de carga rápida USB-C y USB-A con indicador LED. Ideal para Xiaomi y Samsung.</p>
-    <div class="price">
-      <strong>USD 1.14</strong> <br>
-      <small>Antes USD 12.26 · 91% OFF</small>
-    </div>
-    <a href="https://s.click.aliexpress.com/e/_c41Q5hrZ" target="_blank" rel="nofollow noopener">
-      🛒 Comprar
-    </a>
+  <!-- ARTÍCULO 2 -->
+  <div class="card">
+    <img src="https://ae-pic-a1.aliexpress-media.com/kf/Se118a8ef32564d4e970a3a4e72a2a072v.jpg?has_lang=1&ver=1_960x960q75.jpg_.avif" alt="Cables de carga NNBILI">
+    <h3>Cables de carga NNBILI 100W USB C / 120W USB A</h3>
+    <p>Pantalla LED, compatible con iPhone, Xiaomi, Samsung (no universal).</p>
+    <p><strong>Ahora:</strong> USD 1.14<br><strong>Original:</strong> USD 12.26 (91% OFF)</p>
+    <a href="https://s.click.aliexpress.com/e/_c41Q5hrZ" target="_blank" class="button">Comprar</a>
   </div>
 
-  <!-- PRODUCTO 3 -->
-  <div class="store-item">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/Se118a8ef32564d4e970a3a4e72a2a072v.jpg?has_lang=1&ver=1_960x960q75.jpg_.avif" alt="Cargador Dual UE EE.UU">
-    <h3>🔌 Cargador Dual UE / EE. UU.</h3>
-    <p>Cargador compacto compatible con iPhone y Samsung. Perfecto para viajes.</p>
-    <div class="price">
-      <strong>USD 1.14</strong> <br>
-      <small>Antes USD 9.37 · 88% OFF</small>
-    </div>
-    <a href="https://s.click.aliexpress.com/e/_c31hesBd" target="_blank" rel="nofollow noopener">
-      🛒 Comprar
-    </a>
+  <!-- ARTÍCULO 3 -->
+  <div class="card">
+    <img src="https://ae-pic-a1.aliexpress-media.com/kf/Se118a8ef32564d4e970a3a4e72a2a072v.jpg?has_lang=1&ver=1_960x960q75.jpg_.avif" alt="Dual enchufe UE/EE.UU.">
+    <h3>Dual enchufe UE/EE. UU. para iPhone / Samsung</h3>
+    <p>Adaptador compacto para viajes, compatible con múltiples dispositivos.</p>
+    <p><strong>Ahora:</strong> USD 1.14<br><strong>Original:</strong> USD 9.37 (88% OFF)</p>
+    <a href="https://s.click.aliexpress.com/e/_c31hesBd" target="_blank" class="button">Comprar</a>
   </div>
 
 </div>
+</section>
+
+<footer>
+<p>© 2025 Proyectos Digitales Toni81</p>
+</footer>
+
+</body>
+</html>
