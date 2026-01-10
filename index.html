@@ -1,6 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKXHW5YX47"></script>
 <script>
@@ -12,7 +14,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Ofertas globales de AliExpress, productos en tendencia y oportunidades online. Proyectos Digitales Toni81.">
+<meta name="description" content="Ofertas globales de AliExpress, productos virales y oportunidades online. Proyectos Digitales Toni81.">
 
 <title>Proyectos Digitales Toni81 | Ofertas Globales</title>
 
@@ -23,188 +25,111 @@ body {
   background: #f4f6f8;
   color: #333;
 }
+
 header {
   background: linear-gradient(90deg, #007bff, #28a745, #dc3545);
   color: white;
   padding: 30px 15px;
   text-align: center;
 }
+
 section {
   padding: 25px 15px;
-  max-width: 900px;
+  max-width: 1100px;
   margin: auto;
 }
+
 h2 {
   color: #007bff;
-}
-.card {
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 12px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-  border: 2px solid #0044cc;
 }
-.card img {
+
+/* GRID TIENDA */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+/* PRODUCTO */
+.product {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-6px);
+}
+
+.product img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 12px;
   margin-bottom: 10px;
 }
-.card h2 {
+
+.product h3 {
+  font-size: 16px;
+  margin: 10px 0;
   color: #008000;
 }
-.button {
-  display: inline-block;
-  padding: 12px 18px;
-  background-color: #cc0000;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
+
+.price {
+  font-size: 18px;
+  color: #e60000;
   font-weight: bold;
 }
-.button.green {
-  background-color: #28a745;
+
+.price span {
+  font-size: 14px;
+  color: green;
+  margin-left: 5px;
 }
-.button:hover {
+
+.product a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: #ff4500;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.product a:hover {
   opacity: 0.9;
 }
+
+/* BOTONES VERDES */
+.button-green {
+  background: #28a745;
+}
+
+/* FOOTER */
 footer {
   background: #007bff;
   color: white;
   text-align: center;
   padding: 15px;
+  margin-top: 30px;
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
   <h1>Proyectos Digitales Toni81</h1>
-  <p>Negocios digitales, oportunidades online y enlaces recomendados</p>
+  <p>Ofertas globales, productos en tendencia y oportunidades online</p>
 </header>
 
 <section>
 <h2>🔥 Ofertas AliExpress</h2>
-
-<!-- PRODUCTO 1 -->
-<div class="card">
-  <img src="https://via.placeholder.com/400x300?text=Ventilador+de+Cuello" alt="Ventilador de cuello">
-  <h2>🌬️ Ventilador de Cuello Portátil Sin Aspas</h2>
-  <p><strong>Precio:</strong> USD 4.18 (78% OFF)</p>
-  <a href="https://s.click.aliexpress.com/e/_c4cXbyLx" target="_blank" class="button">Comprar</a>
-</div>
-
-<!-- PRODUCTO 2 -->
-<div class="card">
-  <img src="https://via.placeholder.com/400x300?text=Auriculares+Bluetooth" alt="Auriculares Bluetooth">
-  <h2>🎧 Auriculares inalámbricos Bluetooth</h2>
-  <p><strong>Precio:</strong> USD 7.15 (50% OFF)</p>
-  <a href="https://s.click.aliexpress.com/e/_c3dGszIV" class="button" target="_blank">Ver en AliExpress</a>
-</div>
-
-<!-- PRODUCTO 3 -->
-<div class="card">
-  <img src="https://via.placeholder.com/400x300?text=Reloj+Inteligente" alt="Reloj inteligente">
-  <h2>⌚ Reloj Inteligente Militar</h2>
-  <p><strong>Precio:</strong> USD 19.32 (69% OFF)</p>
-  <a href="https://s.click.aliexpress.com/e/_c3TahMQ1" class="button" target="_blank">Ver en AliExpress</a>
-</div>
-
-<!-- PRODUCTO 4 -->
-<div class="card">
-  <img src="https://via.placeholder.com/400x300?text=Proyector+HY450+4K" alt="Proyector HY450">
-  <h2>🎥 Proyector HY450 Full HD 4K</h2>
-  <p><strong>Precio:</strong> USD 195.63 (10% OFF)</p>
-  <a href="https://s.click.aliexpress.com/e/_c3dEvrFR" class="button" target="_blank">Comprar</a>
-</div>
-
-<!-- PRODUCTO 5 -->
-<div class="card">
-  <img src="https://via.placeholder.com/400x300?text=Mini+Impresora+Térmica" alt="Mini impresora térmica">
-  <h2>📇 Mini impresora térmica</h2>
-  <p><strong>Precio:</strong> USD 1.14 (89% OFF)</p>
-  <a href="https://s.click.aliexpress.com/e/_c442OqFF" class="button" target="_blank">Comprar</a>
-</div>
-
-<!-- PRODUCTO 6 -->
-<div class="card">
-  <img src="https://via.placeholder.com/400x300?text=Power+Bank" alt="Power Bank 100000mAh">
-  <h2>🔋 Power Bank 100000mAh</h2>
-  <p><strong>Precio:</strong> USD 11.21 (67% OFF)</p>
-  <a href="https://s.click.aliexpress.com/e/_c4lmd4Ml" class="button" target="_blank">Comprar</a>
-</div>
-
-<!-- PRODUCTO 7 -->
-<div class="card">
-  <img src="https://via.placeholder.com/400x300?text=Teclado+RGB" alt="Teclado mecánico RGB">
-  <h2>🎮 Teclado mecánico RGB</h2>
-  <p><strong>Precio:</strong> USD 1.19 (91% OFF)</p>
-  <a href="https://s.click.aliexpress.com/e/_c3Mq2N5b" class="button" target="_blank">Comprar</a>
-</div>
-
-<!-- PRODUCTO 8 -->
-<div class="card">
-  <img src="https://via.placeholder.com/400x300?text=Soporte+Magnético" alt="Soporte magnético">
-  <h2>📱 Soporte magnético Magsafe</h2>
-  <p><strong>Precio:</strong> USD 10.48 (67% OFF)</p>
-  <a href="https://s.click.aliexpress.com/e/_c4PSedIV" class="button" target="_blank">Comprar</a>
-</div>
-
-<!-- PRODUCTO 9 -->
-<div class="card">
-  <img src="https://via.placeholder.com/400x300?text=Lámpara+LED" alt="Lámpara LED">
-  <h2>💡 Lámpara LED inteligente</h2>
-  <p><strong>Precio:</strong> USD 6.40 (82% OFF)</p>
-  <a href="https://s.click.aliexpress.com/e/_c4T9KgCl" class="button" target="_blank">Comprar</a>
-</div>
-
-<!-- PRODUCTO 10 -->
-<div class="card">
-  <img src="https://via.placeholder.com/400x300?text=Inflador+Portátil" alt="Inflador portátil">
-  <h2>🚗 Inflador portátil 160 PSI</h2>
-  <p><strong>Precio:</strong> USD 57.87 (54% OFF)</p>
-  <a href="https://s.click.aliexpress.com/e/_c3spZFPX" class="button" target="_blank">Comprar</a>
-</div>
-
-</section>
-
-<section>
-<div class="card">
-<h2>💸Surveoo</h2>
-<p>Gana dinero completando tareas y ofertas.</p>
-<a href="https://www.surveoo.com/?r=2423043" class="button green" target="_blank">Unirse a Freecash</a>
-</div>
-
-<div class="card">
-<h2>🎮 </h2>
-<p>Retiros 100.</p>
-<a href="" class="button green" target="_blank">Registrarse</a>
-</div>
-
-<div class="card">
-<h2>🎬 MONOPOLY GO!</h2>
-<p>Descarga la app y gana recompensas.</p>
-<a href="https://mply.io/LKCsOFaZvww" class="button green" target="_blank">Descargar</a>
-</div>
-</section>
-
-<section>
-<div class="card">
-<h2>📲 Canal de Telegram</h2>
-<p>Ofertas globales, productos en tendencia y oportunidades reales todos los días.</p>
-<a href="https://t.me/ventasonlinetoni81" class="button" target="_blank">Unirme al canal</a>
-</div>
-</section>
-
-<footer>
-<p>© 2025 Proyectos Digitales Toni81</p>
-</footer>
-
-</body>
-</html>
-<section>
-<h2>🛒 Ofertas Destacadas</h2>
 
 <div class="grid">
 
@@ -216,11 +141,83 @@ footer {
   </div>
 
   <div class="product">
+    <img src="https://via.placeholder.com/400x400?text=Auriculares+Bluetooth">
+    <h3>Auriculares Bluetooth IPX5</h3>
+    <p class="price">$7.15 <span>-50%</span></p>
+    <a href="https://s.click.aliexpress.com/e/_c3dGszIV" target="_blank">Comprar</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/400x400?text=Reloj+Militar">
+    <h3>Reloj Inteligente Militar</h3>
+    <p class="price">$19.32 <span>-69%</span></p>
+    <a href="https://s.click.aliexpress.com/e/_c3TahMQ1" target="_blank">Comprar</a>
+  </div>
+
+  <div class="product">
     <img src="https://via.placeholder.com/400x400?text=Proyector+HY450">
-    <h3>Proyector HY450 4K</h3>
+    <h3>Proyector HY450 Full HD 4K</h3>
     <p class="price">$195.63 <span>-10%</span></p>
     <a href="https://s.click.aliexpress.com/e/_c3dEvrFR" target="_blank">Comprar</a>
   </div>
 
+  <div class="product">
+    <img src="https://via.placeholder.com/400x400?text=Power+Bank">
+    <h3>Power Bank 100000mAh</h3>
+    <p class="price">$11.21 <span>-67%</span></p>
+    <a href="https://s.click.aliexpress.com/e/_c4lmd4Ml" target="_blank">Comprar</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/400x400?text=Teclado+RGB">
+    <h3>Teclado Mecánico RGB</h3>
+    <p class="price">$1.19 <span>-91%</span></p>
+    <a href="https://s.click.aliexpress.com/e/_c3Mq2N5b" target="_blank">Comprar</a>
+  </div>
+
 </div>
 </section>
+
+<section>
+<h2>🚀 Plataformas Recomendadas</h2>
+
+<div class="grid">
+
+  <div class="product">
+    <h3>💸 Freecash</h3>
+    <p>Gana dinero completando tareas</p>
+    <a href="https://freecash.com/r/ZJDXR" class="button-green" target="_blank">Unirme</a>
+  </div>
+
+  <div class="product">
+    <h3>🎮 Juego de Mineros</h3>
+    <p>Retiros rápidos</p>
+    <a href="https://gamety.org/?ref=7423" class="button-green" target="_blank">Registrarme</a>
+  </div>
+
+  <div class="product">
+    <h3>🎬 MONOPOLY GO!</h3>
+    <p>Gana recompensas jugando</p>
+    <a href="https://mply.io/LKCsOFaZvww" class="button-green" target="_blank">Descargar</a>
+  </div>
+
+</div>
+</section>
+
+<section>
+<h2>📲 Comunidad</h2>
+<div class="grid">
+  <div class="product">
+    <h3>Canal de Telegram</h3>
+    <p>Ofertas y productos virales diarios</p>
+    <a href="https://t.me/ventasonlinetoni81" target="_blank">Unirme</a>
+  </div>
+</div>
+</section>
+
+<footer>
+<p>© 2025 Proyectos Digitales Toni81</p>
+</footer>
+
+</body>
+</html>
